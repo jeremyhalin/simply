@@ -22,7 +22,7 @@
                         {{#get "tags" limit="10" order="desc"}}
                         {{#foreach tags}}
                         <a href="{{url absolute="true"}}" title="{{name}}"
-                            class="u-textCapitalize button button--outline-success">{{name}}</a>
+                            class="u-textCapitalize button" style="border-color: {{accent_color}}; color: {{accent_color}};">{{name}}</a>
                         {{/foreach}}
                         {{/get}}
                     </div>
@@ -70,10 +70,8 @@
 
             {{!-- Copy --}}
             <div class="col s12 u-paddingTop20 u-textAlignCenter u-fontSizeSmaller">
-                &copy; {{date format="YYYY"}} {{@site.title}}.
-                Design with <svg class="icon animated infinite pulse" style="color:red;width:15px">
-                    <use xlink:href="#icon-heart"></use>
-                </svg> by <a href="https://godofredo.ninja" title="Developer FullStack.">@GodoFredoNinja</a>
+                <p>&copy; {{date format="YYYY"}} {{@site.title}}.
+                {{{t "Modified {simplylink} theme" simplylink="<a href=\"https://github.com/jeremyhalin/simply\">Simply</a>"}}}.</p>
             </div>
         </div>
     </section>

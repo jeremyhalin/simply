@@ -1,4 +1,7 @@
 <div class="js-social-media social-media u-flex">
+    <a title="{{t "RSS feed"}}" aria-label="{{t "RSS feed"}}" href="{{@site.url}}/rss" target="_blank" rel="noopener noreferrer">
+        <svg class="icon icon--rss"><use xlink:href="#icon-rss"></use></svg>
+    </a>
     {{#if @site.facebook}}<a class="godo-tracking" data-event-category="Header" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true" title="Facebook {{@site.facebook}}" aria-label="Facebook {{@site.facebook}}" href="{{facebook_url}}" target="_blank" rel="noopener noreferrer">
         <svg class="icon icon--facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>{{/if}}

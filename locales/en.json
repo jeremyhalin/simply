@@ -52,5 +52,8 @@
   "Listen": "Listen",
   "Related <span class='text-success'>Articles</span>": "Related <span class='text-success'>Articles</span>",
   "Please enter a valid email address!": "Please enter a valid email address!",
-  "<strong>Great!</strong> Check your inbox and click the link to confirm your subscription": "<strong>Great!</strong> Check your inbox and click the link to confirm your subscription"
+  "<strong>Great!</strong> Check your inbox and click the link to confirm your subscription": "<strong>Great!</strong> Check your inbox and click the link to confirm your subscription",
+  "Modified {simplylink} theme": "{simplylink} modified theme",
+  "I hate spam as much as you": "I hate spam as much as you",
+  "RSS feed": "RSS feed"
 }
